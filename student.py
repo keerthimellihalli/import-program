@@ -1,6 +1,6 @@
 import sys
     #check if correct number of argv
-if len(sys.argv)! == 3:
+if len(sys.argv) != 3:
 print("Usage: python student.py <name><rollno>")
     #sys.argv[0] is always the program name
 script_name = sys.argv[0]
